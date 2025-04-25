@@ -17,16 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from .views import home,demo,demo2,nothing
-from firstdemoapp2.views import signup_view, login_view
+from firstdemoapp2.views import signup_view, login_view, external_data
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home),
-     
+    path('', home), 
     path('demo/', demo),
     path('demo/demo/', demo2),
     path('nothing/', nothing),
-    
-    path('signup/', signup_view, name='signup'),
-    path('login/', login_view, name='login'),
-
+    path('signup/', signup_view),
+    path('login/', login_view),
+    path('external/', external_data,name='external_data'),
 ]
