@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-%q8t1jbvhgd-9-ue33#$puz81u5qdio@ja3i4jj_!1ua2o!pdn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangotesting-zg9u.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['djangotesting-zg9u.onrender.com', 'localhost', '127.0.0.1','djangotesting3.onrender.com']
 IMGUR_CLIENT_ID = '127e9eec8880f63'
 IMGUR_CLIENT_SECRET = '014ffe428b7ad31a29a48d2c3419161ee1dd9cef'
 MEDIA_URL = '/media/'
