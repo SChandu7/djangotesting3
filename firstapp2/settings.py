@@ -29,6 +29,11 @@ SECRET_KEY = 'django-insecure-%q8t1jbvhgd-9-ue33#$puz81u5qdio@ja3i4jj_!1ua2o!pdn
 DEBUG = True
 
 ALLOWED_HOSTS = ['djangotesting-zg9u.onrender.com', 'localhost', '127.0.0.1']
+IMGUR_CLIENT_ID = '127e9eec8880f63'
+IMGUR_CLIENT_SECRET = '014ffe428b7ad31a29a48d2c3419161ee1dd9cef'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 
 # Application definition
